@@ -34,7 +34,7 @@
 
 .menu > a {
   width: auto;
-  padding: 0;
+  padding: .8rem;
   opacity: 1;
 }
 
