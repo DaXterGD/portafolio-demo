@@ -1,0 +1,47 @@
+/* ========= Site styles ========= */
+/* Services section */
+.services > .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.services .section-title {
+  grid-column: span 2;
+}
+
+/* Projects section */
+.portfolio > .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.portfolio .section-title {
+  grid-column: span 2;
+}
+
+/* Modals */
+.modal__portfolio {
+  flex-direction: row;
+  gap: 1.6rem;
+  max-width: 900px;
+  height: auto;
+}
+
+.modal__info {
+  align-self: center;
+}
+
+.modal__info > h3 {
+  margin-top: 3.2rem;
+}
+
+.modal__portfolio > img {
+  margin-bottom: 0;
+}
+
+/* Contact section */
+.contact__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.6rem;
+}

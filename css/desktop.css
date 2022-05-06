@@ -1,0 +1,92 @@
+/* ========= Components ========= */
+/* Contact form */
+.contact__form {
+  display: grid;
+  column-gap: 1.8rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact__form > textarea,
+.contact-form-loader,
+.contact__form > .btn {
+  grid-column: span 2;
+}
+
+/* Header */
+.header {
+  position: sticky;
+  top: 0;
+  height: calc(var(--header-height) - 0.8rem);
+}
+
+.menu {
+  flex-direction: row;
+  gap: 1.6rem;
+  position: static;
+  width: auto;
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.menu-btn {
+  display: none;
+}
+
+.menu > a {
+  width: auto;
+  padding: 0;
+  opacity: 1;
+}
+
+.menu > a:hover {
+  color: var(--white-color);
+  background-color: transparent;
+}
+
+/* ========= Site styles ========= */
+/* About section */
+.about {
+  display: grid;
+  align-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  min-height: 100vh;
+  margin-bottom: 0;
+}
+
+.profile > p {
+  text-align: center;
+}
+
+.photo {
+  width: 100%;
+}
+
+/* Services section */
+.services > .container {
+  grid-template-columns: repeat(3, 1fr);
+  align-content: center;
+  min-height: 100vh;
+}
+
+.services .section-title {
+  grid-column: span 3;
+}
+
+/* Projects section */
+.portfolio > .container {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.portfolio .section-title {
+  grid-column: span 3;
+}
+
+/* Contect section */
+.contact__cards {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Footer */
+.footer {
+  margin-bottom: 0;
+}
