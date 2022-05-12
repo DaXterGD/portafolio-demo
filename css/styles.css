@@ -565,6 +565,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .photo > img {
+  outline: 3px solid var(--first-color);
   object-fit: cover;
   border-radius: 50%;
 }
